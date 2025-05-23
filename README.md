@@ -29,7 +29,7 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 -Conclusion<br>
 
 ## 📦 Content
-### Day 1 
+### Day 1 Theory 
 ![1p1](https://github.com/user-attachments/assets/af8aa8a8-873e-4bc8-b48e-b614e05807e9)
 ![1p2](https://github.com/user-attachments/assets/3bafd6b5-a274-4194-b413-5387d59c3daf)
 ![1p3](https://github.com/user-attachments/assets/6d6efe86-5bb1-4438-bb9d-886cf98510d9)
@@ -42,4 +42,15 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 ![1p9](https://github.com/user-attachments/assets/04deb286-08b5-46c5-8017-92d0aa571d70)
 ![1p10](https://github.com/user-attachments/assets/ecfd162a-ab0f-41cf-b136-d3a3abed563f)
 ![1p11](https://github.com/user-attachments/assets/ff8152fd-f81e-4864-800c-1b8891d34b61)
+### Day 1 Lab
+![1p12](https://github.com/user-attachments/assets/63ea8d46-2194-484e-a329-bb66faef61f8)
+![1p13](https://github.com/user-attachments/assets/1d18ba5a-c5fb-428a-a4ee-2608ecdf67b1)
+![1p14](https://github.com/user-attachments/assets/4ff84a39-8553-45f0-80f6-7e44d07b9a40)
+![1p15](https://github.com/user-attachments/assets/8851c9a9-e948-491e-90ac-cb0a4876961f)
+![1p16](https://github.com/user-attachments/assets/78524af7-3809-43a7-93e0-27d3747923b6)
+![1p17](https://github.com/user-attachments/assets/a5d880f0-4da0-4505-9a41-1ac56d855a77)
+![1p18](https://github.com/user-attachments/assets/a2a6995c-f138-414b-a33f-6f928534ff05)
+![1p19](https://github.com/user-attachments/assets/bd942bd2-6544-416b-a81d-f4cf4cc7be6b)
+
+
 
