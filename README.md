@@ -27,6 +27,6 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 -Process bussed ports and configuration file creation<br>
 -Quality of results (QOR) generation algorithm<br>
 
-## Content
+## 📦 Content
 ### Day 1 
 -Conclusion<br>
