@@ -1,4 +1,4 @@
-# 🔁 TCL__Tool-Command-Language__Workshop
+![3p3](https://github.com/user-attachments/assets/3a59dd85-6065-454e-ae54-e6b9cf5140e2)# 🔁 TCL__Tool-Command-Language__Workshop
 
 ![Screenshot 2025-05-23 230449](https://github.com/user-attachments/assets/f0003b85-de95-4194-8205-3825a6a9e83f)
 
@@ -29,7 +29,7 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 -Conclusion<br>
 
 ## 📦 Content
-### 🧱 [Day 1 Theory]
+### 🧱 [Day 1]
 In this workshop, we are working on a task that involves creating a TCL script-based tool (TCL box). This tool takes a CSV file as input and processes it to generate timing analysis results, as illustrated in the figure below :- 
 
 ![1p1](https://github.com/user-attachments/assets/af8aa8a8-873e-4bc8-b48e-b614e05807e9)
@@ -55,9 +55,7 @@ The flow to create the TCL toolbox is as below :-<br>
   ![1p10](https://github.com/user-attachments/assets/ecfd162a-ab0f-41cf-b136-d3a3abed563f)
 
 
-### 🧱 [Day 1 Labs]
-
-Creating a shell script cover which will take the input as csv & pass it to tcl script<br> 
+**Initial Shell Script** : Creating a shell script cover which will take the input as csv & pass it to tcl script<br> 
 
 ```
 chmod -R 777 Csv2TimeSpec
@@ -209,3 +207,116 @@ m link my_arr // coverts matrix to array
 ```
 
 ### 🧱 [Day 3]
+
+**SubStep 3.1** : get clock latency & put that in sdc format <br>
+
+![3p1](https://github.com/user-attachments/assets/5a39063d-99bf-40de-a50c-f11383ee7ee5)
+
+**SubStep 3.1** : get location of all clk latency by search between are rectangle then put that in sdc format <br>
+
+![3p2](https://github.com/user-attachments/assets/3b0318fc-07cb-4980-bde3-7f81fc253c88)
+
+**SubStep 3.1** : "search rect" between the clock start & input start - 1 to get all the clock latency <br>
+
+![3p3](https://github.com/user-attachments/assets/bfcabd6c-af64-4f79-a870-e9618aabbfad)
+![3p4](https://github.com/user-attachments/assets/e5c8478c-4b20-45cd-89dd-d4f06364b440)
+![3p5](https://github.com/user-attachments/assets/d2a1d984-13ee-414a-9689-f56769626e3f)
+![3p6](https://github.com/user-attachments/assets/6897f848-0d57-4e52-a393-ed600c24bde8)
+![3p7](https://github.com/user-attachments/assets/7ab05cde-0ec1-4f7d-b206-ebb9f788d3da)
+
+**SubStep 3.1** : following is the expected output for clock latency <br>
+
+![3p8](https://github.com/user-attachments/assets/85f60a0d-1870-46f0-a775-d563f9abb8d5)
+
+**SubStep 3.1** : following method is applied to get the waveform required for sdc<br>
+
+![3p9](https://github.com/user-attachments/assets/5934edf8-506c-4b98-81e0-035f3ac6fdf8)
+
+**SubStep 3.1** : following is the expected o/p for 1 of the clock<br>
+
+![3p10](https://github.com/user-attachments/assets/6fb5f542-4723-4b8f-ada7-2e40ca2843f1)
+
+**SubStep 3.1** : following is the code (as explained in theroy above) <br>
+
+![3p11_LAB](https://github.com/user-attachments/assets/a3f99746-406a-4558-adbd-b50dd72b6b2d)
+
+**SubStep 3.1** : output as expected <br>
+
+![3p12_LAB](https://github.com/user-attachments/assets/f8c8df91-2a47-424c-ab42-a9893e9af8da)
+
+**SubStep 3.1** : output as expected in sdc <br>
+
+![3p13_LAB](https://github.com/user-attachments/assets/5fd83591-8b4a-4715-b28c-61f52947d5cf)
+
+**SubStep 3.2** : similar to clock getting all inputs -> values -> sdc format<br>
+                  here we also need to take care if input is bus then we have keep * in sdc for it<br>
+
+![3p14](https://github.com/user-attachments/assets/0c1a4913-78a1-474a-b765-20b42b1689e4)
+
+**SubStep 3.2** : following method is used for "INPUTS" <br>
+
+![3p15](https://github.com/user-attachments/assets/0a8d9771-2248-4b93-af43-99ee4713fcaa)
+![3p16](https://github.com/user-attachments/assets/7857cef7-40b3-4151-b3b2-0dc75c09e82c)
+![3p17](https://github.com/user-attachments/assets/7bd77f1c-8724-4c50-af8f-64721895be66)
+
+**SubStep 3.2** : following is the code (as explained in theroy above) <br>
+
+![3p18_LAB](https://github.com/user-attachments/assets/16527eda-9aaa-4a89-a404-40bf931bee41)
+
+**SubStep 3.2** : output for inputs delays & skew start location <br>
+
+![3p19_LAB](https://github.com/user-attachments/assets/23ef54f7-1aa5-4b81-8552-5e01c12ed666)
+
+**SubStep 3.2** : code to check if input is bussed or not <br>
+                  the input is taken as pattern & searched with keyword "input" then we check<br>
+                  if lenght is 3 bit or 2 bits based on which busses or not bussed is decided
+                 
+![3p20_LAB](https://github.com/user-attachments/assets/10005a52-dbd3-4f06-95e6-e48f53555c43)
+
+**SubStep 3.2** : following output confirms the working for code as expected<br>
+
+![3p21_LAB](https://github.com/user-attachments/assets/1ce4fdf8-8a9f-4a9f-afe0-a36bc80a580f)
+
+**SubStep 3.2** : quick check for all bussed inputs <br>
+
+![3p22_LAB](https://github.com/user-attachments/assets/8bbc30a1-6685-4a39-9cc8-214abb7d25ad)
+
+**SubStep 3.2** : getting all input constraints values <br>
+
+![3p23](https://github.com/user-attachments/assets/3920e980-a0b1-4df8-b248-b632c9777726)
+![3p24](https://github.com/user-attachments/assets/ad738e1c-fab3-480f-91dc-cf48063974f7)
+![3p25](https://github.com/user-attachments/assets/43f1c64d-9a73-4260-872d-c04868f087f1)
+
+**SubStep 3.2** : code as explained above <br>
+
+![3p26_LAB](https://github.com/user-attachments/assets/b9b48601-8501-4ed3-8690-aeb39d6d818b)
+
+**SubStep 3.2** : bussed or not checked <br>
+
+![3p27_LAB](https://github.com/user-attachments/assets/4aa80533-95db-433e-8fcb-69ac11ff26f2)
+
+**SubStep 3.2** : sdc updated for inputs <br>
+
+![3p28_LAB](https://github.com/user-attachments/assets/67cd5806-90a1-4b4f-af79-a7b5e2c500dc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
