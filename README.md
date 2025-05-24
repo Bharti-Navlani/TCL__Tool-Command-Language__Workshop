@@ -30,25 +30,29 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 
 ## 📦 Content
 ### Day 1 Theory 
+In this workshop, we are working on a task that involves creating a TCL script-based tool (TCL box). This tool takes a CSV file as input and processes it to generate timing analysis results, as illustrated in the figure below :- 
 ![1p1](https://github.com/user-attachments/assets/af8aa8a8-873e-4bc8-b48e-b614e05807e9)
-![1p2](https://github.com/user-attachments/assets/3bafd6b5-a274-4194-b413-5387d59c3daf)
-![1p3](https://github.com/user-attachments/assets/6d6efe86-5bb1-4438-bb9d-886cf98510d9)
+
+The flow to create the TCL toolbox is as below :-
 ![1p3_1](https://github.com/user-attachments/assets/d308c74e-7b29-42e3-874e-dc13301d9317)
+[Subtask] is to pass the following csv file as input 
 ![1p4](https://github.com/user-attachments/assets/70aa13e3-3319-4118-9a94-0a90dd18b3d3)
-![1p5](https://github.com/user-attachments/assets/9369b384-b81a-4a0c-805a-3cad7587c69a)
+[Subtask] Convert csv to format[1] (which is input1 to yosys)
 ![1p6](https://github.com/user-attachments/assets/28baaa98-b01d-4cc8-9192-56fd0495c673)
-![1p7](https://github.com/user-attachments/assets/af2d5bd8-4502-4b87-8b6c-393a0e47e4b7)
+[Subtask] Convert design constraint file to sdc (which is input2 to yosys)
 ![1p8](https://github.com/user-attachments/assets/7cbd1f6c-0425-40b1-bee2-0f398e0e3ad1)
-![1p9](https://github.com/user-attachments/assets/04deb286-08b5-46c5-8017-92d0aa571d70)
+[SubTask] Convert the previous outputs to format[2] (which is input to timing tool)
 ![1p10](https://github.com/user-attachments/assets/ecfd162a-ab0f-41cf-b136-d3a3abed563f)
-![1p11](https://github.com/user-attachments/assets/ff8152fd-f81e-4864-800c-1b8891d34b61)
+
 ### Day 1 Lab
-![1p12](https://github.com/user-attachments/assets/63ea8d46-2194-484e-a329-bb66faef61f8)
-![1p13](https://github.com/user-attachments/assets/1d18ba5a-c5fb-428a-a4ee-2608ecdf67b1)
+Creating a shell script cover which will take the input as csv & pass it to tcl script 
+Case 1 : when user doesnt not provide any aruguments 
 ![1p14](https://github.com/user-attachments/assets/4ff84a39-8553-45f0-80f6-7e44d07b9a40)
 ![1p15](https://github.com/user-attachments/assets/8851c9a9-e948-491e-90ac-cb0a4876961f)
+Case 2 : when user provides the wrong csv file as input 
 ![1p16](https://github.com/user-attachments/assets/78524af7-3809-43a7-93e0-27d3747923b6)
 ![1p17](https://github.com/user-attachments/assets/a5d880f0-4da0-4505-9a41-1ac56d855a77)
+Case 3 : when user provides correct csv , the csv contents are stored in variables 
 ![1p18](https://github.com/user-attachments/assets/a2a6995c-f138-414b-a33f-6f928534ff05)
 ![1p19](https://github.com/user-attachments/assets/bd942bd2-6544-416b-a81d-f4cf4cc7be6b)
 
