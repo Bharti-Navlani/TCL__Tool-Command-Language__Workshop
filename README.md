@@ -1,4 +1,4 @@
-![3p3](https://github.com/user-attachments/assets/3a59dd85-6065-454e-ae54-e6b9cf5140e2)# 🔁 TCL__Tool-Command-Language__Workshop
+🔁 TCL__Tool-Command-Language__Workshop
 
 ![Screenshot 2025-05-23 230449](https://github.com/user-attachments/assets/f0003b85-de95-4194-8205-3825a6a9e83f)
 
