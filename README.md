@@ -31,9 +31,11 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 ## 📦 Content
 ### 🧱 [Day 1 Theory]
 In this workshop, we are working on a task that involves creating a TCL script-based tool (TCL box). This tool takes a CSV file as input and processes it to generate timing analysis results, as illustrated in the figure below :- 
+
 ![1p1](https://github.com/user-attachments/assets/af8aa8a8-873e-4bc8-b48e-b614e05807e9)
 
 The flow to create the TCL toolbox is as below :-<br>
+
 ![1p3_1](https://github.com/user-attachments/assets/d308c74e-7b29-42e3-874e-dc13301d9317)
 
   <li><strong> [Subtask_1] is to pass the following csv file as input</li><br>
@@ -126,15 +128,15 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p18_LAB](https://github.com/user-attachments/assets/9c3cb694-699f-4a78-9524-25336a572802)
 
-**SubStep 1.2 LAB** : Checking if directories & files exists or not <br>
+**SubStep 1.2** : Checking if directories & files exists or not <br>
 
 ![2p19](https://github.com/user-attachments/assets/8c8c1ffd-6794-4156-aa4e-11e9ec0b2b89)
 
-**SubStep 1.2 LAB** : Checking for directory o/p <br>
+**SubStep 1.2** : Checking for directory o/p <br>
 
 ![2p20](https://github.com/user-attachments/assets/05ff9c0e-04bd-4e01-bf03-0a5e8b2bb603)
 
-**SubStep 1.2 LAB** : Checking for file <br>
+**SubStep 1.2** : Checking for file <br>
 
 ![2p22](https://github.com/user-attachments/assets/c953e3fc-6a0c-47be-81c8-cfc1ccfc6604)
 
@@ -156,10 +158,54 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 **SubStep 1.2 LAB** : modify the csv for negative check<br>
 
-![2p28_LAB](https://github.com/user-attachments/assets/d9c7dc52-0013-43c8-98b1-757415837480)
+![2p27_LAB](https://github.com/user-attachments/assets/71df21e0-765b-4e8d-8a84-9ada431d20ed)
 
 **SubStep 1.2 LAB** : as we can see , if stdcell is not found then code is existed out <br>
 
-![2p27_LAB](https://github.com/user-attachments/assets/71df21e0-765b-4e8d-8a84-9ada431d20ed)
+![2p28_LAB](https://github.com/user-attachments/assets/d9c7dc52-0013-43c8-98b1-757415837480)
 
+**SubStep 1.3** : read the constraint file from csv -> sdc <br>
 
+![2p29](https://github.com/user-attachments/assets/552a05d2-0bc3-4292-98f6-a262beb8db06)
+
+**SubStep 1.3** : following task to be done for constraint file from csv -> sdc <br>
+
+![2p30](https://github.com/user-attachments/assets/c105e216-6bc4-4312-96fd-1034d1964502)
+
+**SubStep 1.3** : Getting all the "CLOCK" related variables in the csv <br>
+
+![2p31](https://github.com/user-attachments/assets/b8f5db75-0515-4b30-84f7-9087f5676e2f)
+
+**SubStep 1.3** : Getting all the "INPUTS" related variables in the csv <br>
+
+![2p32](https://github.com/user-attachments/assets/ebdf3475-4390-4b55-8c50-9f3d76c1631b)
+
+**SubStep 1.3** : Getting all the "OUTPUT" related variables in the csv <br>
+
+![2p33](https://github.com/user-attachments/assets/24c868fc-e934-41ab-a172-f5eedf81ae2d)
+
+**SubStep 1.3** : Expected output values <br>
+
+![2p34](https://github.com/user-attachments/assets/16f986cf-720f-4eff-84ea-80bf4e5bfd2c)
+
+**SubStep 1.3 LAB** : code to get "CLOCKS"/"INPUTS"/"OUTPUTS" constraints values <br>
+
+![2p35_LAB](https://github.com/user-attachments/assets/e1822db0-b3d6-42e9-b9ce-1ea6da75c747)
+
+**SubStep 1.3 LAB** : output of the code as expected <br>
+
+![2p36_LAB](https://github.com/user-attachments/assets/e1a4eaf3-7c15-4c9f-a205-bd334873bb3b)
+
+```
+📌 [Quick Notes]
+package require csv // required package for csv
+csv::read2matrix $f m, auto // csv is read to a matrix & stored in "m" & "auto" helps to get quick rows & column as following
+set c [ m columns]
+set r [ m rows] 
+
+package require struct::matrix  // required package for matrix
+
+m link my_arr // coverts matrix to array 
+```
+
+### 🧱 [Day 3]
