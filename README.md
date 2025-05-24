@@ -29,30 +29,42 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 -Conclusion<br>
 
 ## 📦 Content
-### Day 1 Theory 
+### 🧱 Day 1 Theory 
 In this workshop, we are working on a task that involves creating a TCL script-based tool (TCL box). This tool takes a CSV file as input and processes it to generate timing analysis results, as illustrated in the figure below :- 
 ![1p1](https://github.com/user-attachments/assets/af8aa8a8-873e-4bc8-b48e-b614e05807e9)
 
-The flow to create the TCL toolbox is as below :-
+The flow to create the TCL toolbox is as below :-<br>
 ![1p3_1](https://github.com/user-attachments/assets/d308c74e-7b29-42e3-874e-dc13301d9317)
-[Subtask] is to pass the following csv file as input 
+
+**[Subtask]** is to pass the following csv file as input<br>
+-------------------------------------------------------------
 ![1p4](https://github.com/user-attachments/assets/70aa13e3-3319-4118-9a94-0a90dd18b3d3)
-[Subtask] Convert csv to format[1] (which is input1 to yosys)
+
+**[Subtask]** Convert csv to format[1] (which is input1 to yosys)<br>
+-------------------------------------------------------------
 ![1p6](https://github.com/user-attachments/assets/28baaa98-b01d-4cc8-9192-56fd0495c673)
-[Subtask] Convert design constraint file to sdc (which is input2 to yosys)
+
+**[Subtask]** Convert design constraint file to sdc (which is input2 to yosys)<br>
+-------------------------------------------------------------
 ![1p8](https://github.com/user-attachments/assets/7cbd1f6c-0425-40b1-bee2-0f398e0e3ad1)
-[SubTask] Convert the previous outputs to format[2] (which is input to timing tool)
+
+**[SubTask]** Convert the previous outputs to format[2] (which is input to timing tool)<br>
+-------------------------------------------------------------
 ![1p10](https://github.com/user-attachments/assets/ecfd162a-ab0f-41cf-b136-d3a3abed563f)
 
-### Day 1 Lab
-Creating a shell script cover which will take the input as csv & pass it to tcl script 
-Case 1 : when user doesnt not provide any aruguments 
+
+### 🔧 Day 1 Lab
+Creating a shell script cover which will take the input as csv & pass it to tcl script<br> 
+
+**Case 1** : when user doesnt not provide any aruguments<br> 
 ![1p14](https://github.com/user-attachments/assets/4ff84a39-8553-45f0-80f6-7e44d07b9a40)
 ![1p15](https://github.com/user-attachments/assets/8851c9a9-e948-491e-90ac-cb0a4876961f)
-Case 2 : when user provides the wrong csv file as input 
+
+**Case 2** : when user provides the wrong csv file as input <br>
 ![1p16](https://github.com/user-attachments/assets/78524af7-3809-43a7-93e0-27d3747923b6)
 ![1p17](https://github.com/user-attachments/assets/a5d880f0-4da0-4505-9a41-1ac56d855a77)
-Case 3 : when user provides correct csv , the csv contents are stored in variables 
+
+**Case 3** : when user provides correct csv , the csv contents are stored in variables<br> 
 ![1p18](https://github.com/user-attachments/assets/a2a6995c-f138-414b-a33f-6f928534ff05)
 ![1p19](https://github.com/user-attachments/assets/bd942bd2-6544-416b-a81d-f4cf4cc7be6b)
 
