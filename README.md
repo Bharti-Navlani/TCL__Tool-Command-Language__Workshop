@@ -38,19 +38,19 @@ The flow to create the TCL toolbox is as below :-<br>
 
 ![1p3_1](https://github.com/user-attachments/assets/d308c74e-7b29-42e3-874e-dc13301d9317)
 
-  🗒️<li><strong> [Subtask_1] is to pass the following csv file as input</li><br>
+  <li><strong> ✔️[Subtask_1] is to pass the following csv file as input</li><br>
 
   ![1p4](https://github.com/user-attachments/assets/70aa13e3-3319-4118-9a94-0a90dd18b3d3)
 
-  🗒️<li><strong> [Subtask_2] Convert csv to format[1] (which is input1 to yosys)</li><br>
+  <li><strong> ✔️[Subtask_2] Convert csv to format[1] (which is input1 to yosys)</li><br>
 
   ![1p6](https://github.com/user-attachments/assets/28baaa98-b01d-4cc8-9192-56fd0495c673)
 
-  🗒️<li><strong> [Subtask_3] Convert design constraint file to sdc (which is input2 to yosys)</li><br>
+  <li><strong> ✔️[Subtask_3] Convert design constraint file to sdc (which is input2 to yosys)</li><br>
 
   ![1p8](https://github.com/user-attachments/assets/7cbd1f6c-0425-40b1-bee2-0f398e0e3ad1)
 
-  🗒️<li><strong> [SubTask_4] Convert the previous outputs to format[2] (which is input to timing tool)</li><br>
+  <li><strong> ✔️[SubTask_4] Convert the previous outputs to format[2] (which is input to timing tool)</li><br>
   
   ![1p10](https://github.com/user-attachments/assets/ecfd162a-ab0f-41cf-b136-d3a3abed563f)
 
@@ -106,7 +106,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 ![2p12](https://github.com/user-attachments/assets/2b54206b-3515-4a77-955e-22e520d52463)
 ![2p13](https://github.com/user-attachments/assets/f2679705-f550-40eb-84e6-ce5a16bdd881)
 
-**SubStep 2.1** : Create Variables :: variables created <br>
+🗒️**SubStep 2.1** : Create Variables :: variables created <br>
 
 ![2p14](https://github.com/user-attachments/assets/7de92d97-08d7-4921-bab8-3e17b92d31e4)
 
@@ -126,15 +126,15 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p18_LAB](https://github.com/user-attachments/assets/9c3cb694-699f-4a78-9524-25336a572802)
 
-**SubStep 2.2** : Checking if directories & files exists or not <br>
+🗒️**SubStep 2.2** : Checking if directories & files exists or not <br>
 
 ![2p19](https://github.com/user-attachments/assets/8c8c1ffd-6794-4156-aa4e-11e9ec0b2b89)
 
-**SubStep 2.2** : Checking for directory o/p <br>
+🗒️**SubStep 2.2** : Checking for directory o/p <br>
 
 ![2p20](https://github.com/user-attachments/assets/05ff9c0e-04bd-4e01-bf03-0a5e8b2bb603)
 
-**SubStep 2.2** : Checking for file <br>
+🗒️**SubStep 2.2** : Checking for file <br>
 
 ![2p22](https://github.com/user-attachments/assets/c953e3fc-6a0c-47be-81c8-cfc1ccfc6604)
 
@@ -162,27 +162,27 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p28_LAB](https://github.com/user-attachments/assets/d9c7dc52-0013-43c8-98b1-757415837480)
 
-**SubStep 2.3** : read the constraint file from csv -> sdc <br>
+🗒️**SubStep 2.3** : read the constraint file from csv -> sdc <br>
 
 ![2p29](https://github.com/user-attachments/assets/552a05d2-0bc3-4292-98f6-a262beb8db06)
 
-**SubStep 2.3** : following task to be done for constraint file from csv -> sdc <br>
+🗒️**SubStep 2.3** : following task to be done for constraint file from csv -> sdc <br>
 
 ![2p30](https://github.com/user-attachments/assets/c105e216-6bc4-4312-96fd-1034d1964502)
 
-**SubStep 2.3** : Getting all the "CLOCK" related variables in the csv <br>
+🗒️**SubStep 2.3** : Getting all the "CLOCK" related variables in the csv <br>
 
 ![2p31](https://github.com/user-attachments/assets/b8f5db75-0515-4b30-84f7-9087f5676e2f)
 
-**SubStep 2.3** : Getting all the "INPUTS" related variables in the csv <br>
+🗒️**SubStep 2.3** : Getting all the "INPUTS" related variables in the csv <br>
 
 ![2p32](https://github.com/user-attachments/assets/ebdf3475-4390-4b55-8c50-9f3d76c1631b)
 
-**SubStep 2.3** : Getting all the "OUTPUT" related variables in the csv <br>
+🗒️**SubStep 2.3** : Getting all the "OUTPUT" related variables in the csv <br>
 
 ![2p33](https://github.com/user-attachments/assets/24c868fc-e934-41ab-a172-f5eedf81ae2d)
 
-**SubStep 2.3** : Expected output values <br>
+🗒️**SubStep 2.3** : Expected output values <br>
 
 ![2p34](https://github.com/user-attachments/assets/16f986cf-720f-4eff-84ea-80bf4e5bfd2c)
 
@@ -208,15 +208,15 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ### 🧱 [Day 3]
 
-**SubStep 3.1** : get clock latency & put that in sdc format <br>
+🗒️**SubStep 3.1** : get clock latency & put that in sdc format <br>
 
 ![3p1](https://github.com/user-attachments/assets/5a39063d-99bf-40de-a50c-f11383ee7ee5)
 
-**SubStep 3.1** : get location of all clk latency by search between are rectangle then put that in sdc format <br>
+🗒️**SubStep 3.1** : get location of all clk latency by search between are rectangle then put that in sdc format <br>
 
 ![3p2](https://github.com/user-attachments/assets/3b0318fc-07cb-4980-bde3-7f81fc253c88)
 
-**SubStep 3.1** : "search rect" between the clock start & input start - 1 to get all the clock latency <br>
+🗒️**SubStep 3.1** : "search rect" between the clock start & input start - 1 to get all the clock latency <br>
 
 ![3p3](https://github.com/user-attachments/assets/bfcabd6c-af64-4f79-a870-e9618aabbfad)
 ![3p4](https://github.com/user-attachments/assets/e5c8478c-4b20-45cd-89dd-d4f06364b440)
@@ -224,15 +224,15 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 ![3p6](https://github.com/user-attachments/assets/6897f848-0d57-4e52-a393-ed600c24bde8)
 ![3p7](https://github.com/user-attachments/assets/7ab05cde-0ec1-4f7d-b206-ebb9f788d3da)
 
-**SubStep 3.1** : following is the expected output for clock latency <br>
+🗒️**SubStep 3.1** : following is the expected output for clock latency <br>
 
 ![3p8](https://github.com/user-attachments/assets/85f60a0d-1870-46f0-a775-d563f9abb8d5)
 
-**SubStep 3.1** : following method is applied to get the waveform required for sdc<br>
+🗒️**SubStep 3.1** : following method is applied to get the waveform required for sdc<br>
 
 ![3p9](https://github.com/user-attachments/assets/5934edf8-506c-4b98-81e0-035f3ac6fdf8)
 
-**SubStep 3.1** : following is the expected o/p for 1 of the clock<br>
+🗒️**SubStep 3.1** : following is the expected o/p for 1 of the clock<br>
 
 ![3p10](https://github.com/user-attachments/assets/6fb5f542-4723-4b8f-ada7-2e40ca2843f1)
 
@@ -253,7 +253,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![3p14](https://github.com/user-attachments/assets/0c1a4913-78a1-474a-b765-20b42b1689e4)
 
-**SubStep 3.2** : following method is used for "INPUTS" <br>
+🗒️**SubStep 3.2** : following method is used for "INPUTS" <br>
 
 ![3p15](https://github.com/user-attachments/assets/0a8d9771-2248-4b93-af43-99ee4713fcaa)
 ![3p16](https://github.com/user-attachments/assets/7857cef7-40b3-4151-b3b2-0dc75c09e82c)
@@ -281,7 +281,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![3p22_LAB](https://github.com/user-attachments/assets/8bbc30a1-6685-4a39-9cc8-214abb7d25ad)
 
-**SubStep 3.2** : getting all input constraints values <br>
+🗒️**SubStep 3.2** : getting all input constraints values <br>
 
 ![3p23](https://github.com/user-attachments/assets/3920e980-a0b1-4df8-b248-b632c9777726)
 ![3p24](https://github.com/user-attachments/assets/ad738e1c-fab3-480f-91dc-cf48063974f7)
@@ -312,7 +312,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ### 🧱 [Day 4]
 
-**SubStep 4.1** : getting all output delay start location, code will be similar as we have done for INPUTS <br>
+🗒️**SubStep 4.1** : getting all output delay start location, code will be similar as we have done for INPUTS <br>
 
 ![4p1](https://github.com/user-attachments/assets/3f05fe09-9ea7-4f59-9b6d-7b89a5d943c0)
 ![4p2](https://github.com/user-attachments/assets/4dc419f0-cfde-4f09-8fa9-c4d16a97d588)
@@ -342,37 +342,37 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![4p10_LAB](https://github.com/user-attachments/assets/b1c2cec0-df3b-4271-8d88-832be03d02fe)
 
-**SubStep 4.2** : For synthesis of the design , we are using YOSYS tool , for which input is RTL -> YOSYS -> SYN NETLIST 
+🗒️**SubStep 4.2** : For synthesis of the design , we are using YOSYS tool , for which input is RTL -> YOSYS -> SYN NETLIST 
 
 ![4p11](https://github.com/user-attachments/assets/243a8d25-eb69-475a-85bf-02e9a858afc6)
 
-**SubStep 4.2** : following is example of working of memory 
+🗒️**SubStep 4.2** : following is example of working of memory 
 
 ![4p12](https://github.com/user-attachments/assets/15ddbfa2-3b03-4e79-a01a-b1ccaf9beace)
 ![4p13](https://github.com/user-attachments/assets/39053a3f-356f-4e30-a0b0-e8a83317148b)
 
-**SubStep 4.2** : following is RTL code for memory 
+🗒️**SubStep 4.2** : following is RTL code for memory 
 
 ![4p14](https://github.com/user-attachments/assets/7b2621ed-c083-42a4-b12b-651ad117a636)
 
-**SubStep 4.2** : following is example of working of memory while checking with synthesized design 
+🗒️**SubStep 4.2** : following is example of working of memory while checking with synthesized design 
 
 ![4p15](https://github.com/user-attachments/assets/37d0f567-66f6-49c2-99ad-3930f05328a6)
 ![4p16](https://github.com/user-attachments/assets/2c19d037-0d68-4b8a-873d-4777721f5a76)
 
-**SubStep 4.2** : in order to perform synthesis , all rtl files , std files are given as input to yosys tool as show below :- 
+🗒️**SubStep 4.2** : in order to perform synthesis , all rtl files , std files are given as input to yosys tool as show below :- 
 
 ![4p17](https://github.com/user-attachments/assets/bc3474e3-1a9f-47f6-b12c-dbdcd31fbf25)
 
-**SubStep 4.2** : automating the process of creating the above input file required by YOSYS 
+🗒️**SubStep 4.2** : automating the process of creating the above input file required by YOSYS 
 
 ![4p18](https://github.com/user-attachments/assets/6f5c89d9-387d-4775-88b3-33b0b6eca444)
 
-**SubStep 4.2** : from previous script , following output is expected :- 
+🗒️**SubStep 4.2** : from previous script , following output is expected :- 
 
 ![4p19](https://github.com/user-attachments/assets/22feb8fc-0c39-48e9-b367-bcf624b3d12a)
 
-**SubStep 4.2** : following is guide how we are doing the hierarchy check using "catch" command of tcl :- 
+🗒️**SubStep 4.2** : following is guide how we are doing the hierarchy check using "catch" command of tcl :- 
 
 ![4p20](https://github.com/user-attachments/assets/cda0c6c9-c60d-468f-bd86-174ae9d9ebec)
 
@@ -408,11 +408,11 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![4p29_LAB](https://github.com/user-attachments/assets/3c3edb10-3632-4abd-ba41-7bc95e87a42a)
 
-**SubStep 4.2** : explaination of automation for input file for YOSYS 
+🗒️**SubStep 4.2** : explaination of automation for input file for YOSYS 
 
 ![4p30](https://github.com/user-attachments/assets/fed2d7c3-f62c-429c-814e-8e01bf21f05d)
 
-**SubStep 4.2** : following script is use to run YOSYS for synthesis 
+🗒️**SubStep 4.2** : following script is use to run YOSYS for synthesis 
 
 ![4p31](https://github.com/user-attachments/assets/1bcb5ba9-ead3-445b-8cae-c818aecdb2b8)
 
@@ -439,11 +439,11 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![5p3_LAB](https://github.com/user-attachments/assets/6e34ae58-6e77-4c1f-b8c3-ae35d18e06c8)
 
-**SubStep 5.2** : following the next target , the o/p of YOSYS tool is refined & with SDC it is given as input to timing tool 
+🗒️**SubStep 5.2** : following the next target , the o/p of YOSYS tool is refined & with SDC it is given as input to timing tool 
 
 ![5p5](https://github.com/user-attachments/assets/68daf283-1ac2-4d96-9e14-cf1aaa5a8c82)
 
-**SubStep 5.2** : following the info & script for refinement of format[1]
+🗒️**SubStep 5.2** : following the info & script for refinement of format[1]
 
 ![5p6](https://github.com/user-attachments/assets/fa59ab80-563b-4486-810d-6cf1aada826b)
 ![5p7_LAB](https://github.com/user-attachments/assets/576c5c0a-cb30-4a10-9d51-b3ab8499bc60)
@@ -460,15 +460,15 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![5p10_LAB](https://github.com/user-attachments/assets/4b679516-67ea-4ae7-b8bc-5029b2d63d5f)
 
-**SubStep 5.2** : example of proc 
+🗒️**SubStep 5.2** : example of proc 
 
 ![5p11](https://github.com/user-attachments/assets/52d7aced-4de3-4128-a5c9-59539f0faa3b)
 
-**SubStep 5.2** : example of array 
+🗒️**SubStep 5.2** : example of array 
 
 ![5p12](https://github.com/user-attachments/assets/44507efa-4f4e-4e9a-a157-421c3db92140)
 
-**SubStep 5.2** : explaination for set_multi_cpu_usage proc 
+🗒️**SubStep 5.2** : explaination for set_multi_cpu_usage proc 
 
 ![5p13](https://github.com/user-attachments/assets/b04b6ad1-9875-42c5-ac54-ec41ce273d5a)
 
@@ -484,19 +484,19 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![5p16_LAB](https://github.com/user-attachments/assets/3db7da75-9223-458a-92d0-e722c063738d)
 
-**SubStep 5.2 LAB** : [PROC] Stdout proc working ... 
+🗒️**SubStep 5.2 LAB** : [PROC] Stdout proc working ... 
 
 ![5p17_LAB](https://github.com/user-attachments/assets/f0084177-bbd6-408f-b6b8-55ee940dcf1c)
 
-**SubStep 5.2** : [PROC] read_sdc understanding , it converts the SDC to format which is understood by timing tool 
+🗒️**SubStep 5.2** : [PROC] read_sdc understanding , it converts the SDC to format which is understood by timing tool 
 
 ![5p18](https://github.com/user-attachments/assets/0b956c39-1622-405f-920e-e1324a0b545a)
 
-**SubStep 5.2** : [PROC] read_sdc :: clock - need to get rid of "[ ]" present in sdc 
+🗒️**SubStep 5.2** : [PROC] read_sdc :: clock - need to get rid of "[ ]" present in sdc 
 
 ![5p19](https://github.com/user-attachments/assets/3533e166-eded-4680-8ba5-a38e25e8afe4)
 
-**SubStep 5.2** : [PROC] read_sdc :: clock - getting clock name , period & waveform 
+🗒️**SubStep 5.2** : [PROC] read_sdc :: clock - getting clock name , period & waveform 
 
 ![5p20](https://github.com/user-attachments/assets/b6f47338-8f9d-4614-bd35-87f11cd1e90e)
 
@@ -504,7 +504,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![5p21_LAB](https://github.com/user-attachments/assets/bd61ec52-fbed-47e3-ad1e-fb6a85775a01)
 
-**SubStep 5.2** : [PROC] read_sdc :: clock - getting the clock latency 
+🗒️**SubStep 5.2** : [PROC] read_sdc :: clock - getting the clock latency 
 
 ![5p22](https://github.com/user-attachments/assets/a5ddb506-97e4-4b78-8971-0eaa32d20c7e)
 
@@ -549,7 +549,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 ![5p34_LAB](https://github.com/user-attachments/assets/f28355c6-18d5-4ea3-90cd-fa83082f16bf)
 ![5p35_LAB](https://github.com/user-attachments/assets/491a6612-59b9-40e9-ad44-8c1517731512)
 
-**SubStep 5.2** : [PROC] read_sdc :: bit blasting for all the inputs & outputs we have from sdc to /tmp/3 
+🗒️**SubStep 5.2** : [PROC] read_sdc :: bit blasting for all the inputs & outputs we have from sdc to /tmp/3 
 this is done with by search for the ports in the final netlist we have 
 
 ![5p36](https://github.com/user-attachments/assets/50a85efc-e2f4-476d-be46-3aea3ef98c50)
