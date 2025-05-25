@@ -312,36 +312,108 @@ lsort -unique // for sorting & unification
 
 ### 🧱 [Day 4]
 
+**SubStep 4.1** : getting all output delay start location, code will be similar as we have done for INPUTS <br>
+
 ![4p1](https://github.com/user-attachments/assets/3f05fe09-9ea7-4f59-9b6d-7b89a5d943c0)
 ![4p2](https://github.com/user-attachments/assets/4dc419f0-cfde-4f09-8fa9-c4d16a97d588)
+
+**SubStep 4.1** : following is the script written for same followed by output from the script 
+
 ![4p3_LAB](https://github.com/user-attachments/assets/91a896a1-842f-4b9d-89b0-9ce1fdaa8279)
 ![4p4_LAB](https://github.com/user-attachments/assets/abd04e54-800d-46d8-ab32-71fd692287e5)
+
+**SubStep 4.1** : here we are getting the output from the netlist 
+
 ![4p5_LAB](https://github.com/user-attachments/assets/ec0a35c9-3884-425a-9935-80f98b6bcdd3)
+
+**SubStep 4.1** : following shows that if port is found in netlist with "output" then it is taken to further loops other else loop is skipped
+
 ![4p6_LAB](https://github.com/user-attachments/assets/49f38522-5db8-47dd-b06d-51c6491e39ef)
+
+**SubStep 4.1** : checking if output is busses & by taking the values from csv - updating the sdc for output constraints 
+
 ![4p7_LAB](https://github.com/user-attachments/assets/c3465a7f-1fb1-43fc-aede-f7366a1462f7)
-![4p8_LAB](https://github.com/user-attachments/assets/b0213db1-2fba-4a3d-ab23-8495908dcc37)
+
+**SubStep 4.1** : following shows output width 
+
 ![4p9_LAB](https://github.com/user-attachments/assets/589b3ad4-1a49-4fde-a65c-1a2cbe2ffa30)
+
+**SubStep 4.1** : following is the SDC snapshot for output constraints 
+
 ![4p10_LAB](https://github.com/user-attachments/assets/b1c2cec0-df3b-4271-8d88-832be03d02fe)
+
+**SubStep 4.2** : For synthesis of the design , we are using YOSYS tool , for which input is RTL -> YOSYS -> SYN NETLIST 
+
 ![4p11](https://github.com/user-attachments/assets/243a8d25-eb69-475a-85bf-02e9a858afc6)
+
+**SubStep 4.2** : following is example of working of memory 
+
 ![4p12](https://github.com/user-attachments/assets/15ddbfa2-3b03-4e79-a01a-b1ccaf9beace)
 ![4p13](https://github.com/user-attachments/assets/39053a3f-356f-4e30-a0b0-e8a83317148b)
+
+**SubStep 4.2** : following is RTL code for memory 
+
 ![4p14](https://github.com/user-attachments/assets/7b2621ed-c083-42a4-b12b-651ad117a636)
+
+**SubStep 4.2** : following is example of working of memory while checking with synthesized design 
+
 ![4p15](https://github.com/user-attachments/assets/37d0f567-66f6-49c2-99ad-3930f05328a6)
 ![4p16](https://github.com/user-attachments/assets/2c19d037-0d68-4b8a-873d-4777721f5a76)
+
+**SubStep 4.2** : in order to perform synthesis , all rtl files , std files are given as input to yosys tool as show below :- 
+
 ![4p17](https://github.com/user-attachments/assets/bc3474e3-1a9f-47f6-b12c-dbdcd31fbf25)
+
+**SubStep 4.2** : automating the process of creating the above input file required by YOSYS 
+
 ![4p18](https://github.com/user-attachments/assets/6f5c89d9-387d-4775-88b3-33b0b6eca444)
+
+**SubStep 4.2** : from previous script , following output is expected :- 
+
 ![4p19](https://github.com/user-attachments/assets/22feb8fc-0c39-48e9-b367-bcf624b3d12a)
+
+**SubStep 4.2** : following is guide how we are doing the hierarchy check using "catch" command of tcl :- 
+
 ![4p20](https://github.com/user-attachments/assets/cda0c6c9-c60d-468f-bd86-174ae9d9ebec)
+
+**SubStep 4.2** : created input for YOSYS  :- 
+
 ![4p21_LAB](https://github.com/user-attachments/assets/24e1c817-172b-4427-a585-76d8adbda34c)
+
+**SubStep 4.2** : after running the script , it PASS !! as error flag is 0 
+
 ![4p22_LAB](https://github.com/user-attachments/assets/543e84a8-e271-40eb-a4b0-3d71e2c4867c)
+
+**SubStep 4.2** : to check the script quality , modify one of the RTL file 
+
 ![4p23_LAB](https://github.com/user-attachments/assets/3db20f19-d720-49d2-9803-dd318b8b6af0)
+
+**SubStep 4.2** : as we can see check FAILs on modified part , hence script is working fine 
+
 ![4p24_LAB](https://github.com/user-attachments/assets/8d8182c5-74cd-4fe9-bd7c-157967b3c6eb)
-![4p25](https://github.com/user-attachments/assets/ef4241a3-a8f8-4c6d-8974-d13fdfe3a5a0)
+
+**SubStep 4.2** : created script to perform hierarchy check :- 
+
 ![4p26_LAB](https://github.com/user-attachments/assets/0833225a-2ac9-4194-a2df-039d4f06279d)
+
+**SubStep 4.2** : hierarchy check PASS!! :-
+
 ![4p27_LAB](https://github.com/user-attachments/assets/5e728842-2bdf-42b4-8380-9c9fc2881913)
+
+**SubStep 4.2** : to check the script quality , modify one of the RTL file (same as before)
+
 ![4p28_LAB](https://github.com/user-attachments/assets/15a784c1-4368-4950-8a8e-c87b0e2614ba)
+
+**SubStep 4.2** : as we can see check hierarchy checks FAILs on modified part , hence script is working fine 
+
 ![4p29_LAB](https://github.com/user-attachments/assets/3c3edb10-3632-4abd-ba41-7bc95e87a42a)
+
+**SubStep 4.2** : explaination of automation for input file for YOSYS 
+
 ![4p30](https://github.com/user-attachments/assets/fed2d7c3-f62c-429c-814e-8e01bf21f05d)
+
+**SubStep 4.2** : following script is use to run YOSYS for synthesis 
+
 ![4p31](https://github.com/user-attachments/assets/1bcb5ba9-ead3-445b-8cae-c818aecdb2b8)
 
 ### 🧱 [Day 5]
