@@ -90,107 +90,107 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p6](https://github.com/user-attachments/assets/793e5991-f90a-42ac-9baa-0e63c85fe5c3)
 
-**SubStep 1.1** : Create Variables<br>
+**SubStep 2.1** : Create Variables<br>
 
 ![2p7](https://github.com/user-attachments/assets/a5cc9026-0b66-45a2-b6e4-81d0fffe8eb2)
 
-**SubStep 1.1** : Create Variables :: csv2matrix -> matrix2array -> variables created <br>
+**SubStep 2.1** : Create Variables :: csv2matrix -> matrix2array -> variables created <br>
 
 ![2p8](https://github.com/user-attachments/assets/d3ff8cb5-e63d-49ea-b8ec-33d23b94eb6b)
 ![2p9](https://github.com/user-attachments/assets/22a00ef0-fd85-4424-8d01-92899dd9c148)
 
-**SubStep 1.1** : Create Variables :: get the rows & columns of the csv <br>
+**SubStep 2.1** : Create Variables :: get the rows & columns of the csv <br>
 
 ![2p10](https://github.com/user-attachments/assets/07d76005-8965-4d04-a6d8-890dcd9d1300)
 ![2p11](https://github.com/user-attachments/assets/ce81b201-f774-48cd-a170-8cf149e28828)
 ![2p12](https://github.com/user-attachments/assets/2b54206b-3515-4a77-955e-22e520d52463)
 ![2p13](https://github.com/user-attachments/assets/f2679705-f550-40eb-84e6-ce5a16bdd881)
 
-**SubStep 1.1** : Create Variables :: variables created <br>
+**SubStep 2.1** : Create Variables :: variables created <br>
 
 ![2p14](https://github.com/user-attachments/assets/7de92d97-08d7-4921-bab8-3e17b92d31e4)
 
-**SubStep 1.1 LAB** : Create Variables :: call the tcl file inside the shell script <br>
+**SubStep 2.1 LAB** : Create Variables :: call the tcl file inside the shell script <br>
 
 ![2p15_LAB](https://github.com/user-attachments/assets/e4657c39-f8c1-4329-aac0-ee9abf44bdfb)
 
-**SubStep 1.1 LAB** : Create Variables :: code (as explain in above theory path)  <br>
+**SubStep 2.1 LAB** : Create Variables :: code (as explain in above theory path)  <br>
 
 ![2p16_LAB](https://github.com/user-attachments/assets/8f8de2ef-8061-4c35-99ab-d7ef694bca91)
 
-**SubStep 1.1 LAB** : Create Variables :: call the csv file as below  <br>
+**SubStep 2.1 LAB** : Create Variables :: call the csv file as below  <br>
 
 ![2p17_LAB](https://github.com/user-attachments/assets/97565ea7-3479-40e4-8411-793d777c1b7c)
 
-**SubStep 1.1 LAB** : Created Variables <br>
+**SubStep 2.1 LAB** : Created Variables <br>
 
 ![2p18_LAB](https://github.com/user-attachments/assets/9c3cb694-699f-4a78-9524-25336a572802)
 
-**SubStep 1.2** : Checking if directories & files exists or not <br>
+**SubStep 2.2** : Checking if directories & files exists or not <br>
 
 ![2p19](https://github.com/user-attachments/assets/8c8c1ffd-6794-4156-aa4e-11e9ec0b2b89)
 
-**SubStep 1.2** : Checking for directory o/p <br>
+**SubStep 2.2** : Checking for directory o/p <br>
 
 ![2p20](https://github.com/user-attachments/assets/05ff9c0e-04bd-4e01-bf03-0a5e8b2bb603)
 
-**SubStep 1.2** : Checking for file <br>
+**SubStep 2.2** : Checking for file <br>
 
 ![2p22](https://github.com/user-attachments/assets/c953e3fc-6a0c-47be-81c8-cfc1ccfc6604)
 
-**SubStep 1.2 LAB** : Code (as explain in above theory path) <br>
+**SubStep 2.2 LAB** : Code (as explain in above theory path) <br>
 
 ![2p23_LAB](https://github.com/user-attachments/assets/cc7fefa8-8351-4902-93ae-7d95fc4243ec)
 
-**SubStep 1.2 LAB** : as we see all files are checked as below <br>
+**SubStep 2.2 LAB** : as we see all files are checked as below <br>
 
 ![2p24_LAB](https://github.com/user-attachments/assets/4d966d3e-2296-40ac-a469-19abb29b9de6)
 
-**SubStep 1.2 LAB** : remove the o/p directory <br>
+**SubStep 2.2 LAB** : remove the o/p directory <br>
 
 ![2p25_LAB](https://github.com/user-attachments/assets/533c850c-6875-4ed2-8e4d-e9f36de1a367)
 
-**SubStep 1.2 LAB** : o/p directory is shows error that it is not present & has been created<br>
+**SubStep 2.2 LAB** : o/p directory is shows error that it is not present & has been created<br>
 
 ![2p26_LAB](https://github.com/user-attachments/assets/1419f542-fc26-4df0-b20b-caec3d0161e2)
 
-**SubStep 1.2 LAB** : modify the csv for negative check<br>
+**SubStep 2.2 LAB** : modify the csv for negative check<br>
 
 ![2p27_LAB](https://github.com/user-attachments/assets/71df21e0-765b-4e8d-8a84-9ada431d20ed)
 
-**SubStep 1.2 LAB** : as we can see , if stdcell is not found then code is existed out <br>
+**SubStep 2.2 LAB** : as we can see , if stdcell is not found then code is existed out <br>
 
 ![2p28_LAB](https://github.com/user-attachments/assets/d9c7dc52-0013-43c8-98b1-757415837480)
 
-**SubStep 1.3** : read the constraint file from csv -> sdc <br>
+**SubStep 2.3** : read the constraint file from csv -> sdc <br>
 
 ![2p29](https://github.com/user-attachments/assets/552a05d2-0bc3-4292-98f6-a262beb8db06)
 
-**SubStep 1.3** : following task to be done for constraint file from csv -> sdc <br>
+**SubStep 2.3** : following task to be done for constraint file from csv -> sdc <br>
 
 ![2p30](https://github.com/user-attachments/assets/c105e216-6bc4-4312-96fd-1034d1964502)
 
-**SubStep 1.3** : Getting all the "CLOCK" related variables in the csv <br>
+**SubStep 2.3** : Getting all the "CLOCK" related variables in the csv <br>
 
 ![2p31](https://github.com/user-attachments/assets/b8f5db75-0515-4b30-84f7-9087f5676e2f)
 
-**SubStep 1.3** : Getting all the "INPUTS" related variables in the csv <br>
+**SubStep 2.3** : Getting all the "INPUTS" related variables in the csv <br>
 
 ![2p32](https://github.com/user-attachments/assets/ebdf3475-4390-4b55-8c50-9f3d76c1631b)
 
-**SubStep 1.3** : Getting all the "OUTPUT" related variables in the csv <br>
+**SubStep 2.3** : Getting all the "OUTPUT" related variables in the csv <br>
 
 ![2p33](https://github.com/user-attachments/assets/24c868fc-e934-41ab-a172-f5eedf81ae2d)
 
-**SubStep 1.3** : Expected output values <br>
+**SubStep 2.3** : Expected output values <br>
 
 ![2p34](https://github.com/user-attachments/assets/16f986cf-720f-4eff-84ea-80bf4e5bfd2c)
 
-**SubStep 1.3 LAB** : code to get "CLOCKS"/"INPUTS"/"OUTPUTS" constraints values <br>
+**SubStep 2.3 LAB** : code to get "CLOCKS"/"INPUTS"/"OUTPUTS" constraints values <br>
 
 ![2p35_LAB](https://github.com/user-attachments/assets/e1822db0-b3d6-42e9-b9ce-1ea6da75c747)
 
-**SubStep 1.3 LAB** : output of the code as expected <br>
+**SubStep 2.3 LAB** : output of the code as expected <br>
 
 ![2p36_LAB](https://github.com/user-attachments/assets/e1a4eaf3-7c15-4c9f-a205-bd334873bb3b)
 
@@ -311,6 +311,7 @@ lsort -unique // for sorting & unification
 ```
 
 ### 🧱 [Day 4]
+
 ![4p1](https://github.com/user-attachments/assets/3f05fe09-9ea7-4f59-9b6d-7b89a5d943c0)
 ![4p2](https://github.com/user-attachments/assets/4dc419f0-cfde-4f09-8fa9-c4d16a97d588)
 ![4p3_LAB](https://github.com/user-attachments/assets/91a896a1-842f-4b9d-89b0-9ce1fdaa8279)
@@ -343,28 +344,56 @@ lsort -unique // for sorting & unification
 ![4p30](https://github.com/user-attachments/assets/fed2d7c3-f62c-429c-814e-8e01bf21f05d)
 ![4p31](https://github.com/user-attachments/assets/1bcb5ba9-ead3-445b-8cae-c818aecdb2b8)
 
+### 🧱 [Day 5]
 
+![5p1_LAB](https://github.com/user-attachments/assets/27b44d96-dd64-4a2c-ae61-a156f1b6ff64)
+![5p2_LAB](https://github.com/user-attachments/assets/9ba35c72-b804-4ce6-8224-f4e18ad9c74e)
+![5p3_LAB](https://github.com/user-attachments/assets/6e34ae58-6e77-4c1f-b8c3-ae35d18e06c8)
+![5p4_LAB](https://github.com/user-attachments/assets/f5cab405-e1b6-4779-b479-14f5a3fac0b9)
+![5p5](https://github.com/user-attachments/assets/68daf283-1ac2-4d96-9e14-cf1aaa5a8c82)
+![5p6](https://github.com/user-attachments/assets/fa59ab80-563b-4486-810d-6cf1aada826b)
+![5p7_LAB](https://github.com/user-attachments/assets/576c5c0a-cb30-4a10-9d51-b3ab8499bc60)
+![5p8_LAB](https://github.com/user-attachments/assets/d381dfc5-c3a9-4853-8acb-ebec93ca28c7)
+![5p9_LAB](https://github.com/user-attachments/assets/c2b61250-4352-412a-9018-63c757f517fb)
+![5p10_LAB](https://github.com/user-attachments/assets/4b679516-67ea-4ae7-b8bc-5029b2d63d5f)
 
+![5p11](https://github.com/user-attachments/assets/52d7aced-4de3-4128-a5c9-59539f0faa3b)
+![5p12](https://github.com/user-attachments/assets/44507efa-4f4e-4e9a-a157-421c3db92140)
+![5p13](https://github.com/user-attachments/assets/b04b6ad1-9875-42c5-ac54-ec41ce273d5a)
+![5p14_LAB](https://github.com/user-attachments/assets/3430f1f2-04dc-4f5a-a823-3519ff258e86)
+![5p15_LAB](https://github.com/user-attachments/assets/08376aa3-395a-4cb9-8a74-0f02399d1ac4)
+![5p16_LAB](https://github.com/user-attachments/assets/3db7da75-9223-458a-92d0-e722c063738d)
+![5p17_LAB](https://github.com/user-attachments/assets/f0084177-bbd6-408f-b6b8-55ee940dcf1c)
+![5p18](https://github.com/user-attachments/assets/0b956c39-1622-405f-920e-e1324a0b545a)
+![5p19](https://github.com/user-attachments/assets/3533e166-eded-4680-8ba5-a38e25e8afe4)
+![5p20](https://github.com/user-attachments/assets/b6f47338-8f9d-4614-bd35-87f11cd1e90e)
 
+![5p21_LAB](https://github.com/user-attachments/assets/bd61ec52-fbed-47e3-ad1e-fb6a85775a01)
+![5p22](https://github.com/user-attachments/assets/a5ddb506-97e4-4b78-8971-0eaa32d20c7e)
+![5p23_LAB](https://github.com/user-attachments/assets/29c83a04-4da4-4de8-90a0-b7636ab10928)
+![5p24_LAB](https://github.com/user-attachments/assets/64e73e01-2315-40a3-8d54-3d21beeca354)
+![5p25_LAB](https://github.com/user-attachments/assets/afd64a7c-ca29-48b8-b3ad-a664b387944d)
+![5p26_LAB](https://github.com/user-attachments/assets/fc8d22a5-ec01-4aaa-a5ad-55c66b393517)
+![5p27_LAB](https://github.com/user-attachments/assets/cc194a32-8ce5-4d0b-92de-6a350f149a9a)
+![5p28](https://github.com/user-attachments/assets/5335b0c8-80c1-45ca-8a05-3c3671ab9e72)
+![5p29_LAB](https://github.com/user-attachments/assets/b6a58d09-9ba8-4268-baa7-35214d01186b)
+![5p30_LAB](https://github.com/user-attachments/assets/a46dee92-c46e-407e-a296-3ea2f962ce8f)
 
+![5p31](https://github.com/user-attachments/assets/1814da9a-d3b3-4dcb-9048-11756642c0f0)
+![5p32](https://github.com/user-attachments/assets/0d378251-9b8a-4010-b0ec-55dcb5f80579)
+![5p33_LAB](https://github.com/user-attachments/assets/23137836-bf56-4b28-b49c-ac72d02ce132)
+![5p34_LAB](https://github.com/user-attachments/assets/f28355c6-18d5-4ea3-90cd-fa83082f16bf)
+![5p35_LAB](https://github.com/user-attachments/assets/491a6612-59b9-40e9-ad44-8c1517731512)
+![5p36](https://github.com/user-attachments/assets/50a85efc-e2f4-476d-be46-3aea3ef98c50)
+![5p37_LAB](https://github.com/user-attachments/assets/ace380d4-f681-43c9-81a1-f4cb793e3538)
+![5p38_LAB](https://github.com/user-attachments/assets/9112b63b-1ac6-4433-80b7-4e54444890df)
+![5p39_LAB](https://github.com/user-attachments/assets/ea431af2-6f0b-4371-8792-37d1932ba552)
+![5p40_LAB](https://github.com/user-attachments/assets/6115d3a3-e11a-49a0-ad4a-cef4d3db2e75)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
+![5p41_LAB](https://github.com/user-attachments/assets/4b842bc7-f991-4109-8ce6-7116bb54fa83)
+![5p42_LAB](https://github.com/user-attachments/assets/0c5e0c44-e52b-47f1-8a17-c09cf8b6890a)
+![5p43_LAB](https://github.com/user-attachments/assets/a82d0d02-10ad-4770-9207-fa7970e75694)
+![5p44_LAB](https://github.com/user-attachments/assets/3f8a4ede-d305-48fc-91d7-0943cf0f3139)
+![5p45_LAB](https://github.com/user-attachments/assets/6cbcf11a-f655-407c-ad23-7cbc30be71d3)
+![5p46_LAB](https://github.com/user-attachments/assets/b029296b-96ed-4c92-b0af-4b3543cf8475)
 
