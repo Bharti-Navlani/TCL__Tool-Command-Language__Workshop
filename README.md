@@ -79,8 +79,8 @@ chmod -R 777 Csv2TimeSpec
 
 ```
 📌 [Quick Notes]
-$#argv // this is count of arguments
-$argv  // this is variable 
+★ $#argv // this is count of arguments
+★ $argv  // this is variable 
 ```
 
 
@@ -196,14 +196,14 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ```
 📌 [Quick Notes]
-package require csv // required package for csv
-csv::read2matrix $f m, auto // csv is read to a matrix & stored in "m" & "auto" helps to get quick rows & column as following
-set c [ m columns]
-set r [ m rows] 
+★ package require csv // required package for csv
+★ csv::read2matrix $f m, auto // csv is read to a matrix & stored in "m" & "auto" helps to get quick rows & column as following
+★ set c [ m columns]
+★ set r [ m rows] 
 
-package require struct::matrix  // required package for matrix
+★ package require struct::matrix  // required package for matrix
 
-m link my_arr // coverts matrix to array 
+★ m link my_arr // coverts matrix to array 
 ```
 
 ### 🧱 [Day 3]
@@ -301,13 +301,13 @@ m link my_arr // coverts matrix to array
 
 ```
 📌 [Quick Notes]
-search rect c,r c,r // searches region can be specify like this
+★ search rect c,r c,r // searches region can be specify like this
 
-expr { } //any math operation can be done in tcl with this
+★ expr { } //any math operation can be done in tcl with this
 
-puts -nonewline $file "xyz" //this is use to put the content in a file
+★ puts -nonewline $file "xyz" //this is use to put the content in a file
 
-lsort -unique // for sorting & unification 
+★ lsort -unique // for sorting & unification 
 ```
 
 ### 🧱 [Day 4]
@@ -418,9 +418,9 @@ lsort -unique // for sorting & unification
 
 ```
 📌 [Quick Notes]
-catch command // used to check error
+★ catch command // used to check error
 
-exec // inside tcl , if we want to run anything on shell then we can use this 
+★ exec // inside tcl , if we want to run anything on shell then we can use this 
 ```
 
 
@@ -597,17 +597,17 @@ this is done with by search for the ports in the final netlist we have
 ```
 📌 [Quick Notes]
 
-grep -v -w "*" // print everything removing *
+★ grep -v -w "*" // print everything removing *
 
-string map <searc> <replace> $line // command to search & replace 
+★ string map <searc> <replace> $line // command to search & replace 
 
-proc // any script which needs to called multiple time can be created as proc
+★ proc // any script which needs to called multiple time can be created as proc
 
-$args - options(-localCpu) // use to sub args in a give input
+★ $args - options(-localCpu) // use to sub args in a give input
 
-file dirname $argv // input is file path , this gives the directory name of that file
+★ file dirname $argv // input is file path , this gives the directory name of that file
 
-fail tale $agrv // input is a file path , this gives the file name
+★ file tale $agrv // input is a file path , this gives the file name
 
 ```
 
