@@ -594,7 +594,24 @@ this is done with by search for the ports in the final netlist we have
 
 ![5p46_LAB](https://github.com/user-attachments/assets/b029296b-96ed-4c92-b0af-4b3543cf8475)
 
+```
+📌 [Quick Notes]
+
+grep -v -w "*" // print everything removing *
+
+string map <searc> <replace> $line // command to search & replace 
+
+proc // any script which needs to called multiple time can be created as proc
+
+$args - options(-localCpu) // use to sub args in a give input
+
+file dirname $argv // input is file path , this gives the directory name of that file
+
+fail tale $agrv // input is a file path , this gives the file name
+
+```
+
 
 ## 📝 Acknowledgements
-I would like to thank Mr. Kunal Ghosh and the VSD (VLSI System Design) team for organizing the TCL workshop and making the learning material accessible in a clear and structured manner. The course provided valuable insights, and I appreciate the effort put into creating a well-paced and informative experience.
+I would like to thank Mr. Kunal Ghosh and the VSD (VLSI System Design) team for organizing the TCL workshop and making the learning material accessible in a clear and structured manner. The course offered clear explanations and practical insights that contributed meaningfully to my understanding of the subject.
 
