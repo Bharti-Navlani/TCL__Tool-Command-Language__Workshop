@@ -236,19 +236,19 @@ m link my_arr // coverts matrix to array
 
 ![3p10](https://github.com/user-attachments/assets/6fb5f542-4723-4b8f-ada7-2e40ca2843f1)
 
-**SubStep 3.1** : following is the code (as explained in theroy above) <br>
+**SubStep 3.1 LAB** : following is the code (as explained in theroy above) <br>
 
 ![3p11_LAB](https://github.com/user-attachments/assets/a3f99746-406a-4558-adbd-b50dd72b6b2d)
 
-**SubStep 3.1** : output as expected <br>
+**SubStep 3.1 LAB** : output as expected <br>
 
 ![3p12_LAB](https://github.com/user-attachments/assets/f8c8df91-2a47-424c-ab42-a9893e9af8da)
 
-**SubStep 3.1** : output as expected in sdc <br>
+**SubStep 3.1 LAB** : output as expected in sdc <br>
 
 ![3p13_LAB](https://github.com/user-attachments/assets/5fd83591-8b4a-4715-b28c-61f52947d5cf)
 
-**SubStep 3.2** : similar to clock getting all inputs -> values -> sdc format<br>
+**SubStep 3.2 LAB** : similar to clock getting all inputs -> values -> sdc format<br>
                   here we also need to take care if input is bus then we have keep * in sdc for it<br>
 
 ![3p14](https://github.com/user-attachments/assets/0c1a4913-78a1-474a-b765-20b42b1689e4)
@@ -259,25 +259,25 @@ m link my_arr // coverts matrix to array
 ![3p16](https://github.com/user-attachments/assets/7857cef7-40b3-4151-b3b2-0dc75c09e82c)
 ![3p17](https://github.com/user-attachments/assets/7bd77f1c-8724-4c50-af8f-64721895be66)
 
-**SubStep 3.2** : following is the code (as explained in theroy above) <br>
+**SubStep 3.2 LAB** : following is the code (as explained in theroy above) <br>
 
 ![3p18_LAB](https://github.com/user-attachments/assets/16527eda-9aaa-4a89-a404-40bf931bee41)
 
-**SubStep 3.2** : output for inputs delays & skew start location <br>
+**SubStep 3.2 LAB** : output for inputs delays & skew start location <br>
 
 ![3p19_LAB](https://github.com/user-attachments/assets/23ef54f7-1aa5-4b81-8552-5e01c12ed666)
 
-**SubStep 3.2** : code to check if input is bussed or not <br>
+**SubStep 3.2 LAB** : code to check if input is bussed or not <br>
                   the input is taken as pattern & searched with keyword "input" then we check<br>
                   if lenght is 3 bit or 2 bits based on which busses or not bussed is decided
                  
 ![3p20_LAB](https://github.com/user-attachments/assets/10005a52-dbd3-4f06-95e6-e48f53555c43)
 
-**SubStep 3.2** : following output confirms the working for code as expected<br>
+**SubStep 3.2 LAB** : following output confirms the working for code as expected<br>
 
 ![3p21_LAB](https://github.com/user-attachments/assets/1ce4fdf8-8a9f-4a9f-afe0-a36bc80a580f)
 
-**SubStep 3.2** : quick check for all bussed inputs <br>
+**SubStep 3.2 LAB** : quick check for all bussed inputs <br>
 
 ![3p22_LAB](https://github.com/user-attachments/assets/8bbc30a1-6685-4a39-9cc8-214abb7d25ad)
 
@@ -287,15 +287,15 @@ m link my_arr // coverts matrix to array
 ![3p24](https://github.com/user-attachments/assets/ad738e1c-fab3-480f-91dc-cf48063974f7)
 ![3p25](https://github.com/user-attachments/assets/43f1c64d-9a73-4260-872d-c04868f087f1)
 
-**SubStep 3.2** : code as explained above <br>
+**SubStep 3.2 LAB** : code as explained above <br>
 
 ![3p26_LAB](https://github.com/user-attachments/assets/b9b48601-8501-4ed3-8690-aeb39d6d818b)
 
-**SubStep 3.2** : bussed or not checked <br>
+**SubStep 3.2 LAB** : bussed or not checked <br>
 
 ![3p27_LAB](https://github.com/user-attachments/assets/4aa80533-95db-433e-8fcb-69ac11ff26f2)
 
-**SubStep 3.2** : sdc updated for inputs <br>
+**SubStep 3.2 LAB** : sdc updated for inputs <br>
 
 ![3p28_LAB](https://github.com/user-attachments/assets/67cd5806-90a1-4b4f-af79-a7b5e2c500dc)
 
@@ -416,56 +416,185 @@ lsort -unique // for sorting & unification
 
 ![4p31](https://github.com/user-attachments/assets/1bcb5ba9-ead3-445b-8cae-c818aecdb2b8)
 
+```
+📌 [Quick Notes]
+catch command // used to check error
+
+exec // inside tcl , if we want to run anything on shell then we can use this 
+```
+
+
 ### 🧱 [Day 5]
 
-![5p1_LAB](https://github.com/user-attachments/assets/27b44d96-dd64-4a2c-ae61-a156f1b6ff64)
+**SubStep 5.1 LAB** : creating the script for synthesis & running the script (with negative check)
+
 ![5p2_LAB](https://github.com/user-attachments/assets/9ba35c72-b804-4ce6-8224-f4e18ad9c74e)
-![5p3_LAB](https://github.com/user-attachments/assets/6e34ae58-6e77-4c1f-b8c3-ae35d18e06c8)
 ![5p4_LAB](https://github.com/user-attachments/assets/f5cab405-e1b6-4779-b479-14f5a3fac0b9)
+
+**SubStep 5.1 LAB** : after running the synthesis , we can see for missing module hierarchy as well as synthesis FAILs!!
+
+![5p1_LAB](https://github.com/user-attachments/assets/27b44d96-dd64-4a2c-ae61-a156f1b6ff64)
+
+**SubStep 5.1 LAB** : reverted back the original file & then checked synthesis has PASS !!
+
+![5p3_LAB](https://github.com/user-attachments/assets/6e34ae58-6e77-4c1f-b8c3-ae35d18e06c8)
+
+**SubStep 5.2** : following the next target , the o/p of YOSYS tool is refined & with SDC it is given as input to timing tool 
+
 ![5p5](https://github.com/user-attachments/assets/68daf283-1ac2-4d96-9e14-cf1aaa5a8c82)
+
+**SubStep 5.2** : following the info & script for refinement of format[1]
+
 ![5p6](https://github.com/user-attachments/assets/fa59ab80-563b-4486-810d-6cf1aada826b)
 ![5p7_LAB](https://github.com/user-attachments/assets/576c5c0a-cb30-4a10-9d51-b3ab8499bc60)
+
+**SubStep 5.2 LAB** : writting the script for refinement 
+
 ![5p8_LAB](https://github.com/user-attachments/assets/d381dfc5-c3a9-4853-8acb-ebec93ca28c7)
+
+**SubStep 5.2 LAB** : refinement has been done & final netlist is syn netlist 
+
 ![5p9_LAB](https://github.com/user-attachments/assets/c2b61250-4352-412a-9018-63c757f517fb)
+
+**SubStep 5.2 LAB** : in following snapshot , we can see the difference between refined & original netlist 
+
 ![5p10_LAB](https://github.com/user-attachments/assets/4b679516-67ea-4ae7-b8bc-5029b2d63d5f)
 
+**SubStep 5.2** : example of proc 
+
 ![5p11](https://github.com/user-attachments/assets/52d7aced-4de3-4128-a5c9-59539f0faa3b)
+
+**SubStep 5.2** : example of array 
+
 ![5p12](https://github.com/user-attachments/assets/44507efa-4f4e-4e9a-a157-421c3db92140)
+
+**SubStep 5.2** : explaination for set_multi_cpu_usage proc 
+
 ![5p13](https://github.com/user-attachments/assets/b04b6ad1-9875-42c5-ac54-ec41ce273d5a)
+
+**SubStep 5.2 LAB** : [PROC] set_multi_cpu_usage proc
+
 ![5p14_LAB](https://github.com/user-attachments/assets/3430f1f2-04dc-4f5a-a823-3519ff258e86)
+
+**SubStep 5.2 LAB** : [PROC] Stdout proc 
+
 ![5p15_LAB](https://github.com/user-attachments/assets/08376aa3-395a-4cb9-8a74-0f02399d1ac4)
+
+**SubStep 5.2 LAB** : [PROC] read_verilog & read_lib proc 
+
 ![5p16_LAB](https://github.com/user-attachments/assets/3db7da75-9223-458a-92d0-e722c063738d)
+
+**SubStep 5.2 LAB** : [PROC] Stdout proc working ... 
+
 ![5p17_LAB](https://github.com/user-attachments/assets/f0084177-bbd6-408f-b6b8-55ee940dcf1c)
+
+**SubStep 5.2** : [PROC] read_sdc understanding , it converts the SDC to format which is understood by timing tool 
+
 ![5p18](https://github.com/user-attachments/assets/0b956c39-1622-405f-920e-e1324a0b545a)
+
+**SubStep 5.2** : [PROC] read_sdc :: clock - need to get rid of "[ ]" present in sdc 
+
 ![5p19](https://github.com/user-attachments/assets/3533e166-eded-4680-8ba5-a38e25e8afe4)
+
+**SubStep 5.2** : [PROC] read_sdc :: clock - getting clock name , period & waveform 
+
 ![5p20](https://github.com/user-attachments/assets/b6f47338-8f9d-4614-bd35-87f11cd1e90e)
 
+**SubStep 5.2 LAB** : [PROC] read_sdc :: clock - writing script for removing [] , geting clock name , period & waveform as shown below :- 
+
 ![5p21_LAB](https://github.com/user-attachments/assets/bd61ec52-fbed-47e3-ad1e-fb6a85775a01)
+
+**SubStep 5.2** : [PROC] read_sdc :: clock - getting the clock latency 
+
 ![5p22](https://github.com/user-attachments/assets/a5ddb506-97e4-4b78-8971-0eaa32d20c7e)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: clock - writing script for getting clock latency 
+
 ![5p23_LAB](https://github.com/user-attachments/assets/29c83a04-4da4-4de8-90a0-b7636ab10928)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: clock - checking for 1st clock 
+
 ![5p24_LAB](https://github.com/user-attachments/assets/64e73e01-2315-40a3-8d54-3d21beeca354)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: clock - checking for 2nd clock 
+
 ![5p25_LAB](https://github.com/user-attachments/assets/afd64a7c-ca29-48b8-b3ad-a664b387944d)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: clock - getting the clock transition in similar way 
+
 ![5p26_LAB](https://github.com/user-attachments/assets/fc8d22a5-ec01-4aaa-a5ad-55c66b393517)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: clock - checking o/p 
+
 ![5p27_LAB](https://github.com/user-attachments/assets/cc194a32-8ce5-4d0b-92de-6a350f149a9a)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: inputs , similar script is required to get inputs delay & transition 
+
 ![5p28](https://github.com/user-attachments/assets/5335b0c8-80c1-45ca-8a05-3c3671ab9e72)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: inputs , created similar script for INPUTS 
+
 ![5p29_LAB](https://github.com/user-attachments/assets/b6a58d09-9ba8-4268-baa7-35214d01186b)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: inputs , checking script o/p created for INPUTS
+
 ![5p30_LAB](https://github.com/user-attachments/assets/a46dee92-c46e-407e-a296-3ea2f962ce8f)
 
-![5p31](https://github.com/user-attachments/assets/1814da9a-d3b3-4dcb-9048-11756642c0f0)
-![5p32](https://github.com/user-attachments/assets/0d378251-9b8a-4010-b0ec-55dcb5f80579)
+**SubStep 5.2 LAB** : [PROC] read_sdc :: outputs , created similar script for OUTPUTS  
+
 ![5p33_LAB](https://github.com/user-attachments/assets/23137836-bf56-4b28-b49c-ac72d02ce132)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: outputs , checking script o/p created for OUTPUTS
+
 ![5p34_LAB](https://github.com/user-attachments/assets/f28355c6-18d5-4ea3-90cd-fa83082f16bf)
 ![5p35_LAB](https://github.com/user-attachments/assets/491a6612-59b9-40e9-ad44-8c1517731512)
+
+**SubStep 5.2** : [PROC] read_sdc :: bit blasting for all the inputs & outputs we have from sdc to /tmp/3 
+this is done with by search for the ports in the final netlist we have 
+
 ![5p36](https://github.com/user-attachments/assets/50a85efc-e2f4-476d-be46-3aea3ef98c50)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: script for bit blasting 
+
 ![5p37_LAB](https://github.com/user-attachments/assets/ace380d4-f681-43c9-81a1-f4cb793e3538)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: checking the input & output 
+
 ![5p38_LAB](https://github.com/user-attachments/assets/9112b63b-1ac6-4433-80b7-4e54444890df)
+
+**SubStep 5.2 LAB** : [PROC] read_sdc :: checking the format dummped for timing file 
+
 ![5p39_LAB](https://github.com/user-attachments/assets/ea431af2-6f0b-4371-8792-37d1932ba552)
+
+**SubStep 5.2 LAB** : generating the spec & conf file required for timing tool with following script 
+
 ![5p40_LAB](https://github.com/user-attachments/assets/6115d3a3-e11a-49a0-ad4a-cef4d3db2e75)
 
+**SubStep 5.2 LAB** : review for spec & config file generated 
+
 ![5p41_LAB](https://github.com/user-attachments/assets/4b842bc7-f991-4109-8ce6-7116bb54fa83)
+
+**SubStep 5.2 LAB** : script for  [1] running time tool & get the run time , [2] get the worst violation [3] getting no. of violation 
+
 ![5p42_LAB](https://github.com/user-attachments/assets/0c5e0c44-e52b-47f1-8a17-c09cf8b6890a)
+
+**SubStep 5.2 LAB** : script for [4] getting the worst setup violation,  [5] getting no. of setup violation [6] getting hold violation 
+
 ![5p43_LAB](https://github.com/user-attachments/assets/a82d0d02-10ad-4770-9207-fa7970e75694)
+
+**SubStep 5.2 LAB** : script for [7] getting the no. of hold violation [8] getting the inst count 
+
 ![5p44_LAB](https://github.com/user-attachments/assets/3f8a4ede-d305-48fc-91d7-0943cf0f3139)
+
+**SubStep 5.2 LAB** : script to create QOR report veritically & horizontally 
+
 ![5p45_LAB](https://github.com/user-attachments/assets/6cbcf11a-f655-407c-ad23-7cbc30be71d3)
+
+**SubStep 5.2 LAB** : FINAL Csv2TimeSpec is performed successfully !! 
+
 ![5p46_LAB](https://github.com/user-attachments/assets/b029296b-96ed-4c92-b0af-4b3543cf8475)
+
+
+## 📝 Acknowledgements
+I would like to thank Mr. Kunal Ghosh and the VSD (VLSI System Design) team for organizing the TCL workshop and making the learning material accessible in a clear and structured manner. The course provided valuable insights, and I appreciate the effort put into creating a well-paced and informative experience.
 
