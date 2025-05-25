@@ -61,17 +61,17 @@ The flow to create the TCL toolbox is as below :-<br>
 chmod -R 777 Csv2TimeSpec
 ```
 
-**Case 1** : when user doesnt not provide any aruguments<br> 
+▶️ **Case 1** : when user doesnt not provide any aruguments<br> 
 
 ![1p14](https://github.com/user-attachments/assets/4ff84a39-8553-45f0-80f6-7e44d07b9a40)
 ![1p15](https://github.com/user-attachments/assets/8851c9a9-e948-491e-90ac-cb0a4876961f)
 
-**Case 2** : when user provides the wrong csv file as input <br>
+▶️ **Case 2** : when user provides the wrong csv file as input <br>
 
 ![1p16](https://github.com/user-attachments/assets/78524af7-3809-43a7-93e0-27d3747923b6)
 ![1p17](https://github.com/user-attachments/assets/a5d880f0-4da0-4505-9a41-1ac56d855a77)
 
-**Case 3** : when user provides correct csv , the csv contents are stored in variables<br> 
+▶️ **Case 3** : when user provides correct csv , the csv contents are stored in variables<br> 
 
 ![1p18](https://github.com/user-attachments/assets/a2a6995c-f138-414b-a33f-6f928534ff05)
 ![1p19](https://github.com/user-attachments/assets/bd942bd2-6544-416b-a81d-f4cf4cc7be6b)
@@ -110,19 +110,19 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p14](https://github.com/user-attachments/assets/7de92d97-08d7-4921-bab8-3e17b92d31e4)
 
-**SubStep 2.1 LAB** : Create Variables :: call the tcl file inside the shell script <br>
+▶️ **SubStep 2.1 LAB** : Create Variables :: call the tcl file inside the shell script <br>
 
 ![2p15_LAB](https://github.com/user-attachments/assets/e4657c39-f8c1-4329-aac0-ee9abf44bdfb)
 
-**SubStep 2.1 LAB** : Create Variables :: code (as explain in above theory path)  <br>
+▶️ **SubStep 2.1 LAB** : Create Variables :: code (as explain in above theory path)  <br>
 
 ![2p16_LAB](https://github.com/user-attachments/assets/8f8de2ef-8061-4c35-99ab-d7ef694bca91)
 
-**SubStep 2.1 LAB** : Create Variables :: call the csv file as below  <br>
+▶️ **SubStep 2.1 LAB** : Create Variables :: call the csv file as below  <br>
 
 ![2p17_LAB](https://github.com/user-attachments/assets/97565ea7-3479-40e4-8411-793d777c1b7c)
 
-**SubStep 2.1 LAB** : Created Variables <br>
+▶️ **SubStep 2.1 LAB** : Created Variables <br>
 
 ![2p18_LAB](https://github.com/user-attachments/assets/9c3cb694-699f-4a78-9524-25336a572802)
 
@@ -138,27 +138,27 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p22](https://github.com/user-attachments/assets/c953e3fc-6a0c-47be-81c8-cfc1ccfc6604)
 
-**SubStep 2.2 LAB** : Code (as explain in above theory path) <br>
+▶️ **SubStep 2.2 LAB** : Code (as explain in above theory path) <br>
 
 ![2p23_LAB](https://github.com/user-attachments/assets/cc7fefa8-8351-4902-93ae-7d95fc4243ec)
 
-**SubStep 2.2 LAB** : as we see all files are checked as below <br>
+▶️ **SubStep 2.2 LAB** : as we see all files are checked as below <br>
 
 ![2p24_LAB](https://github.com/user-attachments/assets/4d966d3e-2296-40ac-a469-19abb29b9de6)
 
-**SubStep 2.2 LAB** : remove the o/p directory <br>
+▶️ **SubStep 2.2 LAB** : remove the o/p directory <br>
 
 ![2p25_LAB](https://github.com/user-attachments/assets/533c850c-6875-4ed2-8e4d-e9f36de1a367)
 
-**SubStep 2.2 LAB** : o/p directory is shows error that it is not present & has been created<br>
+▶️ **SubStep 2.2 LAB** : o/p directory is shows error that it is not present & has been created<br>
 
 ![2p26_LAB](https://github.com/user-attachments/assets/1419f542-fc26-4df0-b20b-caec3d0161e2)
 
-**SubStep 2.2 LAB** : modify the csv for negative check<br>
+▶️ **SubStep 2.2 LAB** : modify the csv for negative check<br>
 
 ![2p27_LAB](https://github.com/user-attachments/assets/71df21e0-765b-4e8d-8a84-9ada431d20ed)
 
-**SubStep 2.2 LAB** : as we can see , if stdcell is not found then code is existed out <br>
+▶️ **SubStep 2.2 LAB** : as we can see , if stdcell is not found then code is existed out <br>
 
 ![2p28_LAB](https://github.com/user-attachments/assets/d9c7dc52-0013-43c8-98b1-757415837480)
 
@@ -186,11 +186,11 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p34](https://github.com/user-attachments/assets/16f986cf-720f-4eff-84ea-80bf4e5bfd2c)
 
-**SubStep 2.3 LAB** : code to get "CLOCKS"/"INPUTS"/"OUTPUTS" constraints values <br>
+▶️**SubStep 2.3 LAB** : code to get "CLOCKS"/"INPUTS"/"OUTPUTS" constraints values <br>
 
 ![2p35_LAB](https://github.com/user-attachments/assets/e1822db0-b3d6-42e9-b9ce-1ea6da75c747)
 
-**SubStep 2.3 LAB** : output of the code as expected <br>
+▶️**SubStep 2.3 LAB** : output of the code as expected <br>
 
 ![2p36_LAB](https://github.com/user-attachments/assets/e1a4eaf3-7c15-4c9f-a205-bd334873bb3b)
 
