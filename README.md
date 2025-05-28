@@ -85,7 +85,7 @@ chmod -R 777 Csv2TimeSpec
 ![1p18](https://github.com/user-attachments/assets/a2a6995c-f138-414b-a33f-6f928534ff05)
 ![1p19](https://github.com/user-attachments/assets/bd942bd2-6544-416b-a81d-f4cf4cc7be6b)
 
-> [!NOTE]
+[!NOTE]
 ```
 📌 $#
 
