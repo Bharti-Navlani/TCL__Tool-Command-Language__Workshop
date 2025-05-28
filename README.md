@@ -85,11 +85,21 @@ chmod -R 777 Csv2TimeSpec
 ![1p18](https://github.com/user-attachments/assets/a2a6995c-f138-414b-a33f-6f928534ff05)
 ![1p19](https://github.com/user-attachments/assets/bd942bd2-6544-416b-a81d-f4cf4cc7be6b)
 
-
+> [!NOTE]
 ```
-📌 [Quick Notes]
-★ $#argv // this is count of arguments
-★ $argv  // this is variable 
+📌 $#
+
+Gives the number of arguments passed to the script.
+$1, $2, ...
+Access individual arguments by position.
+Use when you know how many arguments to expect.
+
+📌 $@
+
+Refers to all arguments, each as separate words.
+Used with double quotes ("$@") to preserve spaces.
+Ideal for loops and passing arguments safely.
+
 ```
 
 
