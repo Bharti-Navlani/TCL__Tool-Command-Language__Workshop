@@ -7,23 +7,28 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 
 ## 📚 Modules
 [Day 1: Introduction to TCL and VSDSYNTH Toolbox Usage](#Day_1)
+
   - Introduction<br>
   - Sub-Task One: VSDSYNTH Toolbox usage scenarios<br>
   
 [Day 2: Variable Creation and Processing Constraints from CSV](#Day_2)  
+
 - Sub-Task Two - From CSV to format[1] and SDC - Variable Creation<br>
 - Sub-Task Two - From CSV to format[1] and SDC - Processing constraints, CSV<br>
 
 [Day 3: Processing Clock and Input Constraints](#Day_3)  
+
 -Sub-Task Two - From CSV to format[1] and SDC - Processing clock constraints<br>
 -Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints<br>
 
-[Day 4: Complete Scripting and Yosys Synthesis Introduction](#Day_4)   
+[Day 4: Complete Scripting and Yosys Synthesis Introduction](#Day_4)  
+
 -Full script for download and Conclusion<br>
 -Introduction to Yosys synthesis tool usage<br>
 -Hierarchy check and error handling script creation for Yosys<br>
 
 [Day 5: Advanced Scripting Techniques and Quality of Results Generation](#Day_5)  
+
 -Synthesis main file scripting and output file editing<br>
 -World of 'Procs'<br>
 -read_sdc proc - interpret clock generation constraints<br>
