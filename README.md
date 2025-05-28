@@ -9,17 +9,17 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 [Day 1: Introduction to TCL and VSDSYNTH Toolbox Usage](#Day_1)
   - Introduction<br>
   - Sub-Task One: VSDSYNTH Toolbox usage scenarios<br>
-<summary> <h3> Day 2: Variable Creation and Processing Constraints from CSV  </h3> </summary>
+[Day 2: Variable Creation and Processing Constraints from CSV](#Day_2)
 - Sub-Task Two - From CSV to format[1] and SDC - Variable Creation<br>
 - Sub-Task Two - From CSV to format[1] and SDC - Processing constraints, CSV<br>
-<summary> <h3> Day 3: Processing Clock and Input Constraints </h3> </summary>
+[Day 3: Processing Clock and Input Constraints](#Day_3)
 -Sub-Task Two - From CSV to format[1] and SDC - Processing clock constraints<br>
 -Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints<br>
-<summary> <h3> Day 4: Complete Scripting and Yosys Synthesis Introduction </h3> </summary>
+[Day 4: Complete Scripting and Yosys Synthesis Introduction](#Day_4)
 -Full script for download and Conclusion<br>
 -Introduction to Yosys synthesis tool usage<br>
 -Hierarchy check and error handling script creation for Yosys<br>
-<summary> <h3> Day 5: Advanced Scripting Techniques and Quality of Results Generation </h3> </summary>
+[Day 5: Advanced Scripting Techniques and Quality of Results Generation](#Day_5)
 -Synthesis main file scripting and output file editing<br>
 -World of 'Procs'<br>
 -read_sdc proc - interpret clock generation constraints<br>
@@ -84,7 +84,7 @@ chmod -R 777 Csv2TimeSpec
 ```
 
 
-### 🧱 [Day 2]
+## Day_2
 
 In order to convert all the inputs to format[1] & SDC , following are the sub steps involved :-<br>
 
@@ -206,7 +206,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 ★ m link my_arr // coverts matrix to array 
 ```
 
-### 🧱 [Day 3]
+## Day_3
 
 🗒️**SubStep 3.1** : get clock latency & put that in sdc format <br>
 
@@ -310,7 +310,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 ★ lsort -unique // for sorting & unification 
 ```
 
-### 🧱 [Day 4]
+## Day_4
 
 🗒️**SubStep 4.1** : getting all output delay start location, code will be similar as we have done for INPUTS <br>
 
@@ -424,7 +424,7 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 ```
 
 
-### 🧱 [Day 5]
+## Day_5
 
 ▶️**SubStep 5.1 LAB** : creating the script for synthesis & running the script (with negative check)
 
