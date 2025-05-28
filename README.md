@@ -7,8 +7,8 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 
 ## 📚 Modules
 <summary> <h3> Day 1: Introduction to TCL and VSDSYNTH Toolbox Usage </h3> </summary>
-- Introduction<br>
-- Sub-Task One: VSDSYNTH Toolbox usage scenarios<br>
+  Introduction<br>
+  Sub-Task One: VSDSYNTH Toolbox usage scenarios<br>
 <summary> <h3> Day 2: Variable Creation and Processing Constraints from CSV  </h3> </summary>
 - Sub-Task Two - From CSV to format[1] and SDC - Variable Creation<br>
 - Sub-Task Two - From CSV to format[1] and SDC - Processing constraints, CSV<br>
