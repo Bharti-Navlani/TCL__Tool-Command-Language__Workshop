@@ -85,23 +85,19 @@ chmod -R 777 Csv2TimeSpec
 ![1p18](https://github.com/user-attachments/assets/a2a6995c-f138-414b-a33f-6f928534ff05)
 ![1p19](https://github.com/user-attachments/assets/bd942bd2-6544-416b-a81d-f4cf4cc7be6b)
 
+
 > [!NOTE]
-
-```
-📌 $#
-
-Gives the number of arguments passed to the script.
-$1, $2, ...
-Access individual arguments by position.
-Use when you know how many arguments to expect.
-
-📌 $@
-
-Refers to all arguments, each as separate words.
-Used with double quotes ("$@") to preserve spaces.
-Ideal for loops and passing arguments safely.
-
-```
+> 
+> 📌 $#\
+> Gives the number of arguments passed to the script.\
+> $1, $2, ...\
+> Access individual arguments by position.\
+> Use when you know how many arguments to expect.\
+> 
+> 📌 $@\
+> Refers to all arguments, each as separate words.\
+> Used with double quotes ("$@") to preserve spaces.\
+> Ideal for loops and passing arguments safely.\
 
 
 ## Day_2
@@ -214,17 +210,26 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![2p36_LAB](https://github.com/user-attachments/assets/e1a4eaf3-7c15-4c9f-a205-bd334873bb3b)
 
-```
-📌 [Quick Notes]
-★ package require csv // required package for csv
-★ csv::read2matrix $f m, auto // csv is read to a matrix & stored in "m" & "auto" helps to get quick rows & column as following
-★ set c [ m columns]
-★ set r [ m rows] 
 
-★ package require struct::matrix  // required package for matrix
-
-★ m link my_arr // coverts matrix to array 
-```
+> [!NOTE]
+> 
+> 📌 Load Required Packages\
+> package require csv               ;# Required for handling CSV files\
+> package require struct::matrix    ;# Required for working with matrices\
+> 
+> 📌Read CSV into Matrix\
+> csv::read2matrix $f m -auto\
+> Reads the CSV file $f into matrix variable m.\
+> The -auto flag enables automatic detection of rows and columns.\
+> 
+> 📌 Get Matrix Dimensions\
+> set c [m columns]  ;# Get number of columns\
+> set r [m rows]     ;# Get number of rows\
+> 
+> 📌Convert Matrix to Array\
+> m link my_arr\
+> Links the matrix m to the array my_arr.\
+> Allows access to matrix elements via array syntax (e.g., my_arr(0,0)).\
 
 ## Day_3
 
@@ -319,16 +324,25 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![3p28_LAB](https://github.com/user-attachments/assets/67cd5806-90a1-4b4f-af79-a7b5e2c500dc)
 
-```
-📌 [Quick Notes]
-★ search rect c,r c,r // searches region can be specify like this
+> [!NOTE]
+> 
+> 📌Region Search in Matrix\
+> Use: search rect c1,r1 c2,r2\
+> Searches a rectangular region in a matrix\
+> Coordinates specified as column,row\
+> 
+> 📌Math Operation\
+> Use: expr { ... }\
+> Performs any mathematical or logical calculation\
+> 
+> 📌Write to File Without Newline\
+> Use: puts -nonewline $file "xyz"\
+> Writes "xyz" to a file without adding a newline\
+> 
+> 📌Sort and Remove Duplicates\
+> Use: lsort -unique $list\
+> Sorts a list and removes duplicate entries\
 
-★ expr { } //any math operation can be done in tcl with this
-
-★ puts -nonewline $file "xyz" //this is use to put the content in a file
-
-★ lsort -unique // for sorting & unification 
-```
 
 ## Day_4
 
@@ -436,12 +450,20 @@ In order to convert all the inputs to format[1] & SDC , following are the sub st
 
 ![4p31](https://github.com/user-attachments/assets/1bcb5ba9-ead3-445b-8cae-c818aecdb2b8)
 
-```
-📌 [Quick Notes]
-★ catch command // used to check error
-
-★ exec // inside tcl , if we want to run anything on shell then we can use this 
-```
+> [!NOTE]
+> 
+> 📌 catch command\
+> Used to catch errors during command execution without stopping the program.\
+> set status [catch {expr {...}} result]\
+> if {$status != 0} {\
+>    puts "Error caught: $result"\
+> } else {\
+>    puts "Result is $result"\
+> }\
+> 📌 exec\
+> Runs shell commands from inside Tcl scripts and returns their output.\
+> set output [exec ls -l]\
+> puts $output\
 
 
 ## Day_5
@@ -614,22 +636,26 @@ this is done with by search for the ports in the final netlist we have
 
 ![5p46_LAB](https://github.com/user-attachments/assets/b029296b-96ed-4c92-b0af-4b3543cf8475)
 
-```
-📌 [Quick Notes]
 
-★ grep -v -w "*" // print everything removing *
+> [!NOTE]
+> 📌 grep -v -w "*"\
+> Prints all lines except those containing the exact word *.\
+>
+> 📌 string map <search> <replace> $line\
+> Searches for <search> in $line and replaces it with <replace>.\
+>
+> 📌 proc\
+> Defines a reusable procedure (function) that can be called multiple times.\
+>
+> 📌 $args - options (e.g., -localCpu)\
+> From the list of arguments in $args, you can subtract (remove) a specific option like -localCpu and its value to handle it separately.\
+>
+> 📌 file dirname $argv\
+> Returns the directory path of the file specified by $argv.\
+>
+> 📌 file tail $argv\
+> Returns the filename part from the full file path specified by $argv.\
 
-★ string map <searc> <replace> $line // command to search & replace 
-
-★ proc // any script which needs to called multiple time can be created as proc
-
-★ $args - options(-localCpu) // use to sub args in a give input
-
-★ file dirname $argv // input is file path , this gives the directory name of that file
-
-★ file tale $agrv // input is a file path , this gives the file name
-
-```
 
 
 ## 📝 Acknowledgements
