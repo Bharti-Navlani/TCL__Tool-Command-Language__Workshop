@@ -29,7 +29,7 @@ This 10-day hands-on workshop focused on advanced TCL scripting for automation i
 
 [Day 5: Advanced Scripting Techniques and Quality of Results Generation](#Day_5)  
 
-  -Synthesis main file scripting and output file editing<br>
+  - Synthesis main file scripting and output file editing<br>
   - World of 'Procs'<br>
   - read_sdc proc - interpret clock generation constraints<br>
   - read_sdc proc - interpret IO delays and transition constraints<br>
