@@ -6,9 +6,9 @@
 This 10-day hands-on workshop focused on advanced TCL scripting for automation in Synthesis, Physical Design, and STA. Topics included TCL basics, constraints parsing, memory module synthesis using Yosys, and QoR analysis. Designed for students and professionals, the workshop offered practical labs and concluded with an<br> industry-grade certification from VSD.<br>
 
 ## 📚 Modules
-<summary> <h3> Day 1: Introduction to TCL and VSDSYNTH Toolbox Usage </h3> </summary>
-  Introduction<br>
-  Sub-Task One: VSDSYNTH Toolbox usage scenarios<br>
+[Day 1: Introduction to TCL and VSDSYNTH Toolbox Usage](#Day_1)
+  - Introduction<br>
+  - Sub-Task One: VSDSYNTH Toolbox usage scenarios<br>
 <summary> <h3> Day 2: Variable Creation and Processing Constraints from CSV  </h3> </summary>
 - Sub-Task Two - From CSV to format[1] and SDC - Variable Creation<br>
 - Sub-Task Two - From CSV to format[1] and SDC - Processing constraints, CSV<br>
